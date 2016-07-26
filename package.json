@@ -6,9 +6,17 @@
   "gx": {
     "dvcsimport": "github.com/whyrusleeping/autobatch"
   },
+  "gxDependencies": [
+    {
+      "author": "jbenet",
+      "hash": "QmfQzVugPq1w5shWRcLWSeiHF4a2meBX7yVD8Vw7GWJM9o",
+      "name": "go-datastore",
+      "version": "0.1.2"
+    }
+  ],
   "gxVersion": "0.8.0",
   "language": "go",
   "license": "",
   "name": "autobatch",
-  "version": "0.0.0"
+  "version": "0.1.0"
 }
