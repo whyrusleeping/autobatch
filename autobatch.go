@@ -39,12 +39,12 @@ func (d *Datastore) Get(k ds.Key) (interface{}, error) {
 func (d *Datastore) Put(k ds.Key, val interface{}) error {
 	d.buffer[k] = val
 	if len(d.buffer) > d.maxBufferEntries {
-		return d.flush()
+		return d.Flush()
 	}
 	return nil
 }
 
-func (d *Datastore) flush() error {
+func (d *Datastore) Flush() error {
 	b, err := d.child.Batch()
 	if err != nil {
 		return err
@@ -72,7 +72,7 @@ func (d *Datastore) Has(k ds.Key) (bool, error) {
 }
 
 func (d *Datastore) Query(q dsq.Query) (dsq.Results, error) {
-	err := d.flush()
+	err := d.Flush()
 	if err != nil {
 		return nil, err
 	}
