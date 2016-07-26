@@ -1,0 +1,14 @@
+{
+  "author": "whyrusleeping",
+  "bugs": {
+    "url": "https://github.com/whyrusleeping/autobatch"
+  },
+  "gx": {
+    "dvcsimport": "github.com/whyrusleeping/autobatch"
+  },
+  "gxVersion": "0.8.0",
+  "language": "go",
+  "license": "",
+  "name": "autobatch",
+  "version": "0.0.0"
+}
