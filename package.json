@@ -19,6 +19,6 @@
   "license": "",
   "name": "autobatch",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "0.2.9"
+  "version": "0.2.10"
 }
 
