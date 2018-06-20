@@ -9,9 +9,9 @@
   "gxDependencies": [
     {
       "author": "jbenet",
-      "hash": "QmcgP7TRPoo2pButWCAhPieXmgCWecBu8rNcxChTYF2FuA",
+      "hash": "QmeiCcJfDW1GJnWUArudsv5rQsihpi4oyddPhdqo3CfX6i",
       "name": "go-datastore",
-      "version": "2.2.0"
+      "version": "2.4.1"
     }
   ],
   "gxVersion": "0.8.0",
@@ -19,6 +19,6 @@
   "license": "",
   "name": "autobatch",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "0.2.9"
+  "version": "0.2.10"
 }
 
